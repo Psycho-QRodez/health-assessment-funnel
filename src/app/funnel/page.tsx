@@ -66,7 +66,7 @@ const QUESTIONS: Question[] = [
     subtitle:
       "Sleep, meal timing, stress, and daily movement all influence how your body responds to a health plan.",
     tip: "We use lifestyle signals to build a more realistic assessment.",
-    image: "/images/promo.jpg",
+    image: "/images/promo1.png",
   },
   {
     key: "sleep_duration",
@@ -76,7 +76,7 @@ const QUESTIONS: Question[] = [
     subtitle: "Choose your average sleep duration on most nights.",
     tip: "Consistent sleep can improve recovery, appetite regulation, and energy.",
     layout: "right",
-    image: "/images/sleep.jpg",
+    image: "/images/sleep1.png",
     options: [
       { label: "Less than 5 hours", value: "less_than_5" },
       { label: "5 - 6 hours", value: "5_6" },
@@ -93,7 +93,7 @@ const QUESTIONS: Question[] = [
       "Regular means your bedtime and wake-up time are mostly consistent across the week.",
     tip: "A stable sleep schedule helps your body maintain a predictable recovery rhythm.",
     layout: "left",
-    image: "/images/sleep.jpg",
+    image: "/images/sleep2.png",
     options: [
       { label: "Regular", value: "regular" },
       { label: "Sometimes irregular", value: "sometimes_irregular" },
@@ -108,7 +108,7 @@ const QUESTIONS: Question[] = [
     subtitle: "Regular means your meal times are mostly stable across the week.",
     tip: "Meal rhythm can affect energy, hunger control, and long-term adherence.",
     layout: "right",
-    image: "/images/eating.jpg",
+    image: "/images/eating1.png",
     options: [
       { label: "Regular", value: "regular" },
       { label: "Sometimes irregular", value: "sometimes_irregular" },
@@ -122,7 +122,7 @@ const QUESTIONS: Question[] = [
     title: "Which eating pattern sounds closest to you?",
     subtitle: "Choose the option that best describes your usual diet.",
     layout: "left",
-    image: "/images/eating.jpg",
+    image: "/images/eating2.png",
     options: [
       { label: "Mostly healthy and balanced", value: "mostly_healthy_balanced" },
       { label: "Generally balanced", value: "generally_balanced" },
@@ -138,7 +138,7 @@ const QUESTIONS: Question[] = [
     subtitle:
       "Even if you do not work out often, your daily activity level can influence stiffness, energy, and progress.",
     tip: "We consider both exercise habits and everyday activity.",
-    image: "/images/activity.jpg",
+    image: "/images/activity1.png",
   },
   {
     key: "stress_level",
@@ -147,7 +147,7 @@ const QUESTIONS: Question[] = [
     title: "How would you describe your stress level?",
     subtitle: "Stress can influence sleep, eating habits, and consistency.",
     layout: "right",
-    image: "/images/activity.jpg",
+    image: "/images/stress.png",
     options: [
       { label: "Low", value: "low" },
       { label: "Moderate", value: "moderate" },
@@ -164,7 +164,7 @@ const QUESTIONS: Question[] = [
       "Think about your daily movement, walking, sitting time, and general energy.",
     tip: "This is about lifestyle activity, not only gym workouts.",
     layout: "left",
-    image: "/images/activity.jpg",
+    image: "/images/activity2.png",
     options: [
       { label: "Mostly sitting", value: "mostly_sitting" },
       { label: "Lightly active", value: "lightly_active" },
@@ -180,7 +180,7 @@ const QUESTIONS: Question[] = [
     subtitle:
       "This includes yoga, Pilates, stretching, or mobility-focused routines.",
     layout: "right",
-    image: "/images/mobility.jpg",
+    image: "/images/mobility.png",
     options: [
       { label: "Never tried", value: "never_tried" },
       { label: "Beginner", value: "beginner" },
@@ -197,7 +197,7 @@ const QUESTIONS: Question[] = [
     subtitle: "Select all activities that apply to your current routine.",
     tip: "You can select more than one option.",
     layout: "left",
-    image: "/images/workout.jpg",
+    image: "/images/workout1.png",
     options: [
       { label: "No workout", value: "no_workout" },
       { label: "Strength training", value: "strength_training" },
@@ -218,7 +218,7 @@ const QUESTIONS: Question[] = [
     subtitle: "Pick the option closest to your current routine.",
     tip: "No fixed routine is completely fine. The plan should fit your real life.",
     layout: "right",
-    image: "/images/workout.jpg",
+    image: "/images/workout2.png",
     options: [
       { label: "Every day", value: "every_day" },
       { label: "3 - 5 times per week", value: "3_5_per_week" },

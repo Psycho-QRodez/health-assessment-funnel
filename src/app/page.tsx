@@ -39,7 +39,7 @@ export default function Home() {
 
           <section className="hero-visual">
             <Illustration
-              src="/images/hero.jpg"
+              src="/images/hero.png"
               alt="VitaFlow health assessment illustration"
               label="Hero Illustration"
               size="large"
