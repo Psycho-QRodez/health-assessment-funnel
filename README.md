@@ -23,7 +23,7 @@ VitaFlow 是一个基于 Next.js、Supabase 和 PostgreSQL 构建的健康评估
 
 部署地址：
 
-https://vitaflow-5rkr5roel-qr-odez-s-projects.vercel.app
+[https://vitaflow-5rkr5roel-qr-odez-s-projects.vercel.app](https://vitaflow-alpha.vercel.app?_vercel_share=toGEPEAw0lagXacKvI2mIvSvmajfXSnZ)
 
 ## GitHub Repository
 
